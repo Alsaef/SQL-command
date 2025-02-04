@@ -32,5 +32,15 @@ SELECT name FROM students
 -- aggregate function
 SELECT upper(name) FROM students
 
+-- scalar function
+SELECT concat(name, ' ', email) FROM students
+
+SELECT avg(age) FROM students
+
+SELECT max(age) FROM students
+
+
+SELECT min(age) FROM students
+
 
 
