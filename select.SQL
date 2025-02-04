@@ -21,8 +21,16 @@ SELECT * FROM Students;
 
 SELECT * FROM Students WHERE id= 1;
 
--- select asc amd desc
+-- select order by asc amd desc
 
-SELECT * FROM students ORDER BY age ASC
+SELECT age FROM students ORDER BY age ASC
+
+-- select from property
+SELECT name FROM students
+
+
+-- aggregate function
+SELECT upper(name) FROM students
+
 
 
